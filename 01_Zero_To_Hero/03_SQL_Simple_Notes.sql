@@ -188,6 +188,10 @@ SELECT ProductKey, EnglishProductName, StandardCost, DealerPrice
 FROM DimProduct
 ORDER BY DealerPrice DESC
 END
+
+
+
+
 -- SP with a single parameter
  
 GO
@@ -201,6 +205,8 @@ WHERE DealerPrice > @MinPrice
 ORDER BY DealerPrice DESC
 END
  
+
+
  
 -- SP with multiple parameters
  
@@ -223,6 +229,8 @@ ORDER BY
 DealerPrice DESC
 END
  
+
+
 
 -- SP with multiple parameters and text
  
